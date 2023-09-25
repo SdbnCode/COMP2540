@@ -1,5 +1,5 @@
 public class Main {
-    public static boolean BracketCheck(String arithmeticOperation) throws StackFullException, EmptyStackException {
+    public static boolean BracketCheck(String arithmeticOperation) throws FullStackException, EmptyStackException {
 
         ArrayStack stack = new ArrayStack(arithmeticOperation.length());
 
@@ -11,15 +11,14 @@ public class Main {
                     return false;
                 }
                 char top = (char) stack.pop();
-                if (!areBracketsMatching(top, c)) {
+                if (!matchBrackets(top, c)) {
                     return false;
                 }
             }
         }
-
-        return stack.isEmpty(); // Balanced if the stack is empty
+        return stack.isEmpty();
     }
-    private static boolean areBracketsMatching(char open, char close) {
+    private static boolean matchBrackets(char open, char close) {
         return (open == '{' && close == '}') || (open == '[' && close == ']') || (open == '(' && close == ')');
     }
 
@@ -36,7 +35,7 @@ public class Main {
             boolean result = false;
             try {
                 result = BracketCheck(testCase);
-            } catch (StackFullException | EmptyStackException e) {
+            } catch (FullStackException | EmptyStackException e) {
                 throw new RuntimeException(e);
             }
             System.out.println("Arithmetic operation: " + testCase);

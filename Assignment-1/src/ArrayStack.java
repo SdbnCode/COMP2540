@@ -17,9 +17,9 @@ public class ArrayStack {
         return top == maxSize - 1;
     }
 
-    public void push(int x) throws StackFullException {
+    public void push(int x) throws FullStackException {
         if (isFull()) {
-            throw new StackFullException();
+            throw new FullStackException();
         } else {
             top = top + 1;
             stack[top] = x;
