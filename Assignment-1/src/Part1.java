@@ -1,9 +1,9 @@
-public class Main {
-    public static boolean BracketCheck(String arithmeticOperation) throws FullStackException, EmptyStackException {
+public class Part1 {
+    public static boolean BracketCheck(String x) throws FullStackException, EmptyStackException {
 
-        ArrayStack stack = new ArrayStack(arithmeticOperation.length());
+        ArrayStack stack = new ArrayStack(x.length());
 
-        for (char c : arithmeticOperation.toCharArray()) {
+        for (char c : x.toCharArray()) {
             if (c == '{' || c == '[' || c == '(') {
                 stack.push(c);
             } else if (c == '}' || c == ']' || c == ')') {
@@ -39,8 +39,10 @@ public class Main {
                 throw new RuntimeException(e);
             }
             System.out.println("Arithmetic operation: " + testCase);
-            System.out.println("Brackets are balanced: " + result);
+            System.out.println("Brackets are balanced: " + (result ? "Yes" : "No"));
             System.out.println();
         }
+
+
     }
 }

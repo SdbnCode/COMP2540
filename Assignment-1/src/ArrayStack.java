@@ -2,7 +2,7 @@ public class ArrayStack {
 
     private final int[] stack;
     private int top;
-    private final int maxSize = 100;
+    private final int maxSize = 200;
 
     public ArrayStack(int length) {
         this.stack = new int[maxSize];
