@@ -1,4 +1,5 @@
 public class Main {
+
     public static void main(String[] args) {
 
         LinkedList list = new LinkedList();
@@ -21,8 +22,23 @@ public class Main {
         System.out.println(list.getLast());
 
         //remove last element
-//        list.removeLast();
+        list.removeLast();
         System.out.print("Last after using removing last function: ");
         System.out.println(list.getLast());
+
+
+        //testing stack methods
+        System.out.println("\nTesting stack implementation");
+        Stack newStack = new Stack();
+        //testing push
+        newStack.push("hi");
+        newStack.push("hello");
+        newStack.push("bye");
+        newStack.pop();
+        System.out.println("top element: " + newStack.top());
+        System.out.println("Stack size: " + newStack.size());
+
+
+
     }
 }
