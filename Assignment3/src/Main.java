@@ -4,6 +4,7 @@ public class Main {
 
         int [] array = new int[]{10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
 
+/*
         //Array before calling insertion method
         System.out.println("Array before sort: ");
         for(int i = 0; i < array.length; i++){
@@ -17,14 +18,11 @@ public class Main {
         for(int i = 0; i < array.length; i++){
             System.out.print(array[i] + " ");
         }
-
-
-
+*/
         //Array before calling quicksort method
         System.out.println("Array before sort: ");
         for(int i = 0; i < array.length; i++){
             System.out.print(array[i] + " ");
-
         }
         System.out.print("\n");
         QuickSort.quickSort(array);
