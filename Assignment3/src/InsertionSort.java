@@ -13,6 +13,18 @@ public class InsertionSort {
             input[j+1] = currentTemp;
         }
     }
+/*psuedocode for insertion sort
 
+input = an array
+output = sorted array
+
+for an array of i < size of array
+    temp <- array[i]
+    firstp = i - 1
+    while firstp >= 0 and array[firstp] > temp
+    array[firstp + 1] = array[firstp]
+    firstp decrement
+array[j+1] = temp
+ */
 
 }

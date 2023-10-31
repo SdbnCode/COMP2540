@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f98b9968-7a27-4c94-a50d-750cdbb9af36" name="Changes" comment="Completed quicksort method">
-      <change afterPath="$PROJECT_DIR$/Assignment3/src/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/src/MergeSortedQueues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/src/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/src/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/src/SinglyLinkedList.java" afterDir="false" />
+    <list default="true" id="f98b9968-7a27-4c94-a50d-750cdbb9af36" name="Changes" comment="Completed Mergesort method and implemented with queue. Need comments.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/src/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/src/InsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +88,7 @@
       <workItem from="1698691062060" duration="130000" />
       <workItem from="1698691277859" duration="6000" />
       <workItem from="1698691314392" duration="53000" />
-      <workItem from="1698691628484" duration="10065000" />
+      <workItem from="1698691628484" duration="13440000" />
     </task>
     <task id="LOCAL-00001" summary="Added assignment 1 and 2 need to complete assignment 3 QuickSort">
       <option name="closed" value="true" />
@@ -118,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698697242855</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Completed Mergesort method and implemented with queue. Need comments.">
+      <option name="closed" value="true" />
+      <created>1698702895693</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698702895693</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +142,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added assignment 1 and 2 need to complete assignment 3 QuickSort" />
     <MESSAGE value="Completed quicksort method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed quicksort method" />
+    <MESSAGE value="Completed Mergesort method and implemented with queue. Need comments." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Mergesort method and implemented with queue. Need comments." />
   </component>
 </project>
