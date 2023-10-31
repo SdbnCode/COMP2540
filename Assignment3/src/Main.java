@@ -60,16 +60,14 @@ public class Main {
         best case = O(n) - If the array is already sorted then it just needs to go through the array one time
         average case = O(n^2)
 
-
-
         Quick sort:
         worst case = O(n^2) - This happens when the pivot is splitting the array into really unbalanced partitions then the partition is going to keep going at a n-1 rate
         best = O(n log n) - If the pivot is always producing even partitions then it is possible to get this best case
         average case = O(n log n)
 
         Merge sort:
-        worst case = O(n log n) -
-        best case = O(n log n) -
+        worst case = O(n log n) - because it uses recurssion and implements a linear search
+        best case = O(n log n) - at any level merge is dividing and combining the array from two parts which has a time complexity of n and then the recursion part would be n/2 as it takes half the time to sort then bam you have n log n
         average case = O(n log n) - its a stable algorithm compared to the other two
          */
 
