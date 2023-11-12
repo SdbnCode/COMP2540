@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f98b9968-7a27-4c94-a50d-750cdbb9af36" name="Changes" comment="Completed Mergesort method and implemented with queue. Need comments.">
+    <list default="true" id="f98b9968-7a27-4c94-a50d-750cdbb9af36" name="Changes" comment="Added comments for time complexity">
+      <change afterPath="$PROJECT_DIR$/Assignment4/Assignment4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment4/src/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment4/src/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment4/src/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/src/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/src/InsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/src/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/src/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +82,9 @@
       <recent name="C:\Users\Steve\Desktop\COMP2540\Assignment-3" />
       <recent name="C:\Users\Steve\Desktop\COMP2540" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -90,6 +101,13 @@
       <workItem from="1698691628484" duration="13440000" />
       <workItem from="1698720872327" duration="53000" />
       <workItem from="1698782687275" duration="1533000" />
+      <workItem from="1698784242368" duration="30000" />
+      <workItem from="1698853223507" duration="448000" />
+      <workItem from="1698853752471" duration="2483000" />
+      <workItem from="1698862750309" duration="1300000" />
+      <workItem from="1698900787711" duration="1714000" />
+      <workItem from="1698961524022" duration="1352000" />
+      <workItem from="1699483382448" duration="1316000" />
     </task>
     <task id="LOCAL-00001" summary="Added assignment 1 and 2 need to complete assignment 3 QuickSort">
       <option name="closed" value="true" />
@@ -131,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698720918200</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added comments for time complexity">
+      <option name="closed" value="true" />
+      <created>1698784259792</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698784259793</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +178,7 @@
     <MESSAGE value="Added assignment 1 and 2 need to complete assignment 3 QuickSort" />
     <MESSAGE value="Completed quicksort method" />
     <MESSAGE value="Completed Mergesort method and implemented with queue. Need comments." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Mergesort method and implemented with queue. Need comments." />
+    <MESSAGE value="Added comments for time complexity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added comments for time complexity" />
   </component>
 </project>

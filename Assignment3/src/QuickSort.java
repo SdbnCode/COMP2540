@@ -8,6 +8,8 @@ public class QuickSort {
         }
         //Set the last number in the array as the pivot
         int pivot = array[highIndex];
+
+        //Calling partitioning method
         int leftPointer = partition(array,lowIndex,highIndex,pivot);
 
         //recursive call of the quickSort method for left partition
@@ -20,7 +22,7 @@ public class QuickSort {
     private static int partition(int[] array, int lowIndex, int highIndex, int pivot) {
         //Starting at the left most number
         int leftPointer = lowIndex;
-        //Starting from the right most number
+        //Starting from the right most number that is not the pivot
         int rightPointer = highIndex - 1;
 
         while (leftPointer < rightPointer) {
@@ -40,6 +42,7 @@ public class QuickSort {
             swap(array, leftPointer, highIndex);
         }
         else {
+            //make the highIndex the left pointer
             leftPointer = highIndex;
         }
         return leftPointer;
